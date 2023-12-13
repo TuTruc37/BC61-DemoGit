@@ -14,3 +14,11 @@ git push -u origin(tên nhánh master hoặc main) hoặc từ lần 2: git push
 9. Lệnh tạo nhánh mới: git branch (tên nhánh mới)
 10. Lệnh giúp chuyển nhánh: git checkout (tên nhánh muốn chuyển)
 11. Lệnh giúp tạo nhánh mới và chuyển qua nhánh mới: git checkout -b (tên nhánh mới)
+master - devA
+
+//Một số lưu ý khi merge code
+- Khi nhánh phụ merge code lên nhánh chính , sẽ có những lỗi xung đột phát sinh và sẽ đi chọn phương án,
+đẩy lên remote repo
+- Khi nhánh chính đã hoàn thành quá trình merge và fix xung đột, các nhánh phụ sẽ thực hiện quá 
+trình merge code từ nhánh chính và nhánh phụ để lấy các thay đổi mới nhất về
+
