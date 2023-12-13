@@ -9,3 +9,7 @@ thay đổi hoặc thêm mới thì sử dụng git add . hoặc git add -A
 git push -u origin(tên nhánh master hoặc main) hoặc từ lần 2: git push
 7. Lệnh giúp clone (lấy 1 bảng sao) một dự án từ trên github về máy tính: git clone (url của remote repo)
 8. Giúp lấy sự thay đổi mới nhất từ remote repo về máy tính: git pull origin (tên nhánh trên remote repo)
+//branch
+9. Lệnh tạo nhánh mới: git branch (tên nhánh mới)
+10. Lệnh giúp chuyển nhánh: git checkout (tên nhánh muốn chuyển)
+11. Lệnh giúp tạo nhánh mới và chuyển qua nhánh mới: git checkout -b (tên nhánh mới)
